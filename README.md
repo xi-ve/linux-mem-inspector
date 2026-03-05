@@ -11,6 +11,15 @@ Runs with or without a PID. Use **Process -> Attach...** in the UI to pick a pro
 
 ---
 
+**Build**
+
+```bash
+cmake -S . -B build
+cmake --build build -j$(nproc)
+```
+
+---
+
 **Adding inspector as MCP in Claude / Cursor (Copilot, etc.)**
 
 The inspector speaks MCP over TCP (default port 8082). Clients expect a stdio subprocess, so we use `socat` to bridge stdio to the inspector's port.
