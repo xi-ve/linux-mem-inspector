@@ -2,6 +2,9 @@
 
 ReClass-inspired memory inspection tool for Linux with MCP support.
 
+<img width="1265" height="688" alt="image" src="https://github.com/user-attachments/assets/faacbe80-8481-4f57-9b3c-d166dcbfaaaa" />
+
+
 **Usage:** `inspector [pid]`  
 Runs with or without a PID. Use **Process -> Attach...** in the UI to pick a process (from the list or by entering a PID). When attaching you can enable **Auto-connect by binary name** so the next launch re-attaches to that process. **Edit -> Settings** configures the MCP server and **Auto-connect executable name**. Config file: `$XDG_CONFIG_HOME/inspector/config`.
 
